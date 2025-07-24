@@ -2,6 +2,9 @@
 
 ![](documentation-and-images/digital-asset-wallet-for-salesforce-financial-services-cloud-thumbnail.png)
 
+Web3 Enabler Digital Asset Wallet for [Salesforce 
+Financial Services Cloud](https://www.salesforce.com/financial-services/cloud) provides financial advisors with user-friendly access to blockchain data, such as Ethereum or Bitcoin transactions, to allow clients to share a full picture of their total assets with their financial advisors.
+
 ## Installation & Setup
 
 The following installation and setup steps are also shown in this [video demonstration](https://youtu.be/khIhLIKqMVM).
