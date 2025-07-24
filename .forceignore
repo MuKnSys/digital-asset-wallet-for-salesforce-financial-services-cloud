@@ -1,0 +1,37 @@
+# List files or directories below to ignore them when running force:source:push, force:source:pull, and force:source:status
+# More information: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_exclude_source.htm
+#
+
+package.xml
+
+force-app/main/default/profiles/
+
+# LWC configuration files
+**/jsconfig.json
+**/.eslintrc.json
+
+# LWC Jest
+**/__tests__/**
+
+**/tsconfig.json
+
+**/*.ts
+
+# Reports and Dashboards to ignore
+**/reports/prm_channel_reports_folder/**
+**/dashboards/prm_channel_dashboard_folder/**
+
+# Ignore all standard reports (non-custom)
+force-app/main/default/reports/unfiled$public/**
+force-app/main/default/reports/*[!_]*.report
+force-app/main/default/reports/*[!_]*.report-meta.xml
+
+# Ignore standard report types but allow custom ones
+force-app/main/default/reportTypes/FinServ__*.reportType
+force-app/main/default/reportTypes/FinServ__*.reportType-meta.xml
+force-app/main/default/reportTypes/prm_*.reportType
+force-app/main/default/reportTypes/prm_*.reportType-meta.xml
+force-app/main/default/reportTypes/flow_*.reportType
+force-app/main/default/reportTypes/flow_*.reportType-meta.xml
+force-app/main/default/reportTypes/screen_*.reportType
+force-app/main/default/reportTypes/screen_*.reportType-meta.xml
