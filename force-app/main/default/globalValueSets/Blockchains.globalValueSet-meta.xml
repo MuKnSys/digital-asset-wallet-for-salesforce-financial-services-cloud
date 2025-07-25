@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ETH_MAINNET</fullName>
+        <default>false</default>
+        <label>Ethereum</label>
+    </customValue>
+    <customValue>
+        <fullName>BASE_MAINNET</fullName>
+        <default>false</default>
+        <label>Base (Coinbase)</label>
+    </customValue>
+    <customValue>
+        <fullName>BITCOIN_MAINNET</fullName>
+        <default>false</default>
+        <label>Bitcoin</label>
+    </customValue>
+    <description>Blockchains supported</description>
+    <masterLabel>Blockchains</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

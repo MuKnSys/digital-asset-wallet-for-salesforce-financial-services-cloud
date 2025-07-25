@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exchange__c</fullName>
+    <description>Exchange where the security is listed</description>
+    <label>Exchange</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DeFi</fullName>
+                <default>false</default>
+                <label>DeFi</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

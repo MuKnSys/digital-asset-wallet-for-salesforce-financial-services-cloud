@@ -1,0 +1,75 @@
+<template>
+    <lightning-card title="Digital Asset Wallets Advanced Setup" icon-name="custom:custom53">
+        <div class="slds-var-m-around_large">
+            <div class="slds-text-heading_large slds-var-p-bottom_medium">
+                <b>Digital Asset Wallets Advanced Setup</b>
+            </div>
+            <div class="slds-text-body_regular slds-var-p-bottom_large">
+                On this screen you can configure advanced Digital Asset Wallets features for Salesforce.
+            </div>
+
+            <!-- Asset Tokens & Contract Tokens Section -->
+            <section class="slds-var-p-bottom_x-large">
+                <div class="slds-text-title_bold slds-var-m-bottom_x-small">
+                    <lightning-icon icon-name="custom:custom53" size="small" class="slds-var-m-right_x-small"></lightning-icon>
+                    Asset Tokens &amp; Contract Tokens
+                </div>
+                <lightning-accordion allow-multiple-sections-open active-section-name="tokens">
+                    <lightning-accordion-section name="tokens" label="Reinitialize Asset Tokens &amp; Contract Tokens">
+                        <div class="slds-text-body_small slds-var-m-bottom_small">
+                            Optional. If Asset Tokens or Contract Tokens records have been deleted/changed, you can refresh them.
+                        </div>
+                        <lightning-button
+                            label="Reinitialize Investment Assets"
+                            variant="brand"
+                            class="slds-var-m-top_small slds-var-m-bottom_medium"
+                            onclick={handleReinitializeAssetToken}
+                        ></lightning-button>
+                    </lightning-accordion-section>
+                </lightning-accordion>
+            </section>
+
+            <!-- CoinGecko Pro Setup Section -->
+            <section>
+                <div class="slds-text-title_bold slds-var-m-bottom_x-small">
+                    <lightning-icon icon-name="custom:custom54" size="small" class="slds-var-m-right_x-small"></lightning-icon>
+                    CoinGecko Pro Setup
+                </div>
+                <lightning-accordion allow-multiple-sections-open active-section-name="coingecko">
+                    <lightning-accordion-section name="coingecko" label="CoinGecko Pro Credentials">
+                        <div class="slds-text-body_small slds-var-m-bottom_small">
+                            Optional. The Coingecko API is used for Cryptocurrency to Fiat exchange rates. The limits of the Free API should be sufficient for all normal operations. If you have or register for a Coingecko Account, you can use your API Key here to get more precise and up to date exchange rates.
+                            <a href="https://www.coingecko.com/en/api/pricing" target="_blank" class="slds-text-link">More information</a>.
+                        </div>
+                        <lightning-input
+                            type="text"
+                            label="CoinGecko API Key"
+                            placeholder="Enter your CoinGecko API Key (optional)"
+                            value={coinGeckoApiKey}
+                            onchange={handleCoinGeckoApiKeyChange}
+                            class="slds-var-m-bottom_medium"
+                        ></lightning-input>
+                        <div class="slds-grid slds-gutters">
+                            <div class="slds-col">
+                                <template if:true={coinGeckoApiKey}>
+                                    <lightning-button
+                                        label="Remove Credentials"
+                                        variant="destructive"
+                                        onclick={handleRemoveCoinGecko}
+                                    ></lightning-button>
+                                </template>
+                                <template if:false={coinGeckoApiKey}>
+                                    <lightning-button
+                                        label="Save Credentials"
+                                        variant="brand"
+                                        onclick={handleSaveCoinGecko}
+                                    ></lightning-button>
+                                </template>
+                            </div>
+                        </div>
+                    </lightning-accordion-section>
+                </lightning-accordion>
+            </section>
+        </div>
+    </lightning-card>
+</template> 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Holding_Value__c</fullName>
+    <label>Holding Value</label>
+    <type>Currency</type>
+    <precision>18</precision>
+    <scale>2</scale>
+    <formula>Shares__c * Security__r.FinServ__Price__c</formula>
+    <description>Calculated value of the holding (Shares * Security Price)</description>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <trackHistory>false</trackHistory>
+</CustomField> 

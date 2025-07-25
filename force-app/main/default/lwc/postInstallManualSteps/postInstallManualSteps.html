@@ -1,0 +1,66 @@
+<template>
+    <lightning-card title="Digital Asset Wallets Post Install Manual Steps" icon-name="custom:custom53">
+        <div class="slds-var-m-around_large">
+            <div class="slds-notify slds-notify_alert slds-alert_warning slds-var-m-bottom_medium">
+                <lightning-icon
+                    icon-name="utility:warning"
+                    size="x-small"
+                    class="slds-var-p-right_small"
+                ></lightning-icon>
+                <span>
+                    WARNING: If you have not completed the Post Install Setup, the authorization will succeed, but you will get strange error messages and data will not flow properly. Please complete the Post Install Setup first.
+                </span>
+            </div>
+            <div class="slds-text-heading_large slds-var-p-bottom_medium">
+                <b>Digital Asset Wallets Web3 Enabler One Time Setup: Authorization and Authentication</b>
+            </div>
+            <div class="slds-text-body_regular slds-var-p-bottom_large">
+                Thank you for installing Digital Asset Wallets. Digital Asset Wallets uses a connected app and an integration user to bring Blockchain Data into Salesforce. To comply with Salesforce's strict security requirements, administrators must create and authorize this user. All Digital Asset Wallets features will utilize the same Connected App and Integration User.<br/>
+                <span class="slds-text-color_error">Failure to do this step will result in failures to connect Blockchain Payment data to Salesforce data.</span>
+            </div>
+            <lightning-accordion allow-multiple-sections-open active-section-name={activeSections}>
+                <lightning-accordion-section name="step1" label="Step 1: Create an Additional Permission Sets">
+                    <div class="slds-text-heading_small slds-var-p-bottom_small">
+                        Web3 Enabler includes the permission sets necessary for most operations. There are a few permissions that cannot be added by developers, so we will walk through the installation.<br/>
+                        The permission in question are authorization to the ConnectedApp, that allows the communication, and access to the Standard Object Account.
+                    </div>
+                    <div class="slds-var-p-bottom_small">Step by step instructions are as follows:</div>
+                    <div>Enter Setup, Search for Permission Sets and create 2 following permission sets.</div>
+                    <ol class="slds-list_ordered slds-var-p-left_medium">
+                        <li>Create a new Permission Set named 'Web3 Enabler Integration Access' without license.</li>
+                        <li>In the permission set, go to Connected Apps Access, and add the MuKn Web3 CA connected app.</li>
+                        <li>Assign this permission set to your user for the Connected App.</li>
+                    </ol>
+                </lightning-accordion-section>
+                <lightning-accordion-section name="step2" label="Step 2: Create the Integration User">
+                    <div class="slds-text-heading_small slds-var-p-bottom_small">
+                        We highly recommend the use of a Salesforce Integration user for this program. Web3 Data is highly sensitive data, and the data being reported is financial. We want a clear history in Salesforce of any changes here.
+                    </div>
+                    <div>Requirements of this User are as follows:</div>
+                    <ol class="slds-list_ordered slds-var-p-left_medium">
+                        <li>Enter Setup, and Create Users.</li>
+                        <li>Give your new Integration User reasonable names and logins.</li>
+                        <li>Use an email you can monitor.</li>
+                        <li>Salesforce License: Salesforce Integration.</li>
+                        <li>Salesforce Profile: Salesforce API Only System Integrations.</li>
+                        <li>After saving, Edit Permission Sets for this user and assign:
+                            <ul>
+                                <li>Web3 Enabler Integration User.</li>
+                                <li>Created in Step 1 – Web3 Enabler Integration Access</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </lightning-accordion-section>
+                <lightning-accordion-section name="step3" label="Step 3: Authorize MuKn Web3 CA">
+                    <div class="slds-text-heading_small slds-var-p-bottom_small">
+                        Make sure you have the User/Password from the User Created in Step Two.
+                    </div>
+                    <div>
+                        Go to the "Web3 Enabler Setup Tab" and click Authorize My Org (we recommend that you right-click and use an Incognito / Private Browser). Login and Authorize.<br/>
+                        After Authorization, refresh the Web3 Enabler Setup Tab, you should see everything.
+                    </div>
+                </lightning-accordion-section>
+            </lightning-accordion>
+        </div>
+    </lightning-card>
+</template>

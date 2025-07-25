@@ -1,0 +1,1365 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AddDeriveUTXOAddressCtrl_ErrorUTXOAddressDerive</fullName>
+        <categories>apex, AddDeriveUTXOAddressCtrl</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AddDeriveUTXOAddress Ctrl Error UTXO Address Derive</shortDescription>
+        <value>Error when deriving a new UTXO address</value>
+    </labels>
+    <labels>
+        <fullName>AddDeriveUTXOAddressCtrl_OrgWalletNotExisting</fullName>
+        <categories>apex, AddDeriveUTXOAddressCtrl</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AddDeriveUTXOAddress Ctrl Org Wallet Not Existing</shortDescription>
+        <value>Org Wallet is not existing</value>
+    </labels>
+    <labels>
+        <fullName>AddDeriveUTXOAddress_DeriveFailMessage</fullName>
+        <categories>lwc, AddDeriveUTXOAddress</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AddDeriveUTXOAddress Derive Fail Message</shortDescription>
+        <value>Failed to derive a new UTXO address</value>
+    </labels>
+    <labels>
+        <fullName>AddDeriveUTXOAddress_DeriveSuccessMessage</fullName>
+        <categories>lwc, AddDeriveUTXOAddress</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AddDeriveUTXOAddress Derive Success Message</shortDescription>
+        <value>Derived an new UTXO Address</value>
+    </labels>
+    <labels>
+        <fullName>AddDeriveUTXOAddress_ErrorMessage</fullName>
+        <categories>lwc, AddDeriveUTXOAddress</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AddDeriveUTXOAddress Error Message</shortDescription>
+        <value>Error while Adding / Deriving an new UTXO Address</value>
+    </labels>
+    <labels>
+        <fullName>AddDeriveUTXOAddress_TitleAdd</fullName>
+        <categories>lwc, AddDeriveUTXOAddress</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AddDeriveUTXOAddress Title Add</shortDescription>
+        <value>Add UTXO Address</value>
+    </labels>
+    <labels>
+        <fullName>AddDeriveUTXOAddress_TitleDefault</fullName>
+        <categories>lwc, AddDeriveUTXOAddress</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AddDeriveUTXOAddress Title Default</shortDescription>
+        <value>Add / Derive UTXO Address</value>
+    </labels>
+    <labels>
+        <fullName>AddDeriveUTXOAddress_TitleDerive</fullName>
+        <categories>lwc, AddDeriveUTXOAddress</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AddDeriveUTXOAddress Title Derive</shortDescription>
+        <value>Derive UTXO Address</value>
+    </labels>
+    <labels>
+        <fullName>AssetTokenContractTokenHeader</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Asset Token Contract Token Header</shortDescription>
+        <value>Asset Tokens &amp; Contract Tokens</value>
+    </labels>
+    <labels>
+        <fullName>AssetTokenContractTokenInfo</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Asset Token Contract Token Info</shortDescription>
+        <value
+        >Optional. If Asset Tokens or Contract Tokens records have been deleted/changed, you can refresh them.</value>
+    </labels>
+    <labels>
+        <fullName>AssetTokenContractTokenReinitializeAT</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Asset Token Contract Token Reinitialize AT</shortDescription>
+        <value>Reinitialize Asset Tokens</value>
+    </labels>
+    <labels>
+        <fullName>AssetTokenContractTokenReinitializeATInfo</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Asset Token Contract Token Reinitialize AT Info</shortDescription>
+        <value>Asset Tokens Reinitialized.</value>
+    </labels>
+    <labels>
+        <fullName>AssetTokenContractTokenReinitializeCT</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Asset Token Contract Token Reinitialize CT</shortDescription>
+        <value>Reinitialize Contract Tokens</value>
+    </labels>
+    <labels>
+        <fullName>AssetTokenContractTokenReinitializeCTInfo</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Asset Token Contract Token Reinitialize CT Info</shortDescription>
+        <value>Contract Tokens Reinitialized.</value>
+    </labels>
+    <labels>
+        <fullName>AssetTokenContractTokenReinitializeSuccess</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Asset Token Contract Token Reinitialize Success</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>AssetTokenContractTokenTitle</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Asset Token Contract Token Title</shortDescription>
+        <value>Reinitialize Asset Tokens &amp; Contract Tokens</value>
+    </labels>
+    <labels>
+        <fullName>CoinGeckoInvalidAssetToken</fullName>
+        <categories>Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CoinGecko Invalid Asset Token</shortDescription>
+        <value>Invalid asset token or no data available from CoinGecko API.</value>
+    </labels>
+    <labels>
+        <fullName>InboundBlockchainTransaction_Transaction_Exists_Message</fullName>
+        <categories>apex, InboundBlockchainTransaction, OutboundBlockchainTransaction</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>InboundBlockchainTransaction_Transaction_Exists_Message</shortDescription>
+        <value>Transactions exist in the system.</value>
+    </labels>
+    <labels>
+        <fullName>InitializeBitrankScore_Bitrank_Score_Found</fullName>
+        <categories>lwc, initiateBitrankScore</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>InitializeBitrankScore Bitrank Score Found</shortDescription>
+        <value>Valid BitRank Score is found</value>
+    </labels>
+    <labels>
+        <fullName>InitializeBitrankScore_Disabled</fullName>
+        <categories>lwc, initiateBitrankScore</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>InitializeBitrankScore Disabled</shortDescription>
+        <value>BitRank is disabled. Please contact the administrator</value>
+    </labels>
+    <labels>
+        <fullName>InitializeBitrankScore_Fail</fullName>
+        <categories>lwc, initiateBitrankScore</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>InitializeBitrankScore Fail</shortDescription>
+        <value>BitRank Check failed.</value>
+    </labels>
+    <labels>
+        <fullName>InitializeBitrankScore_Info_Text</fullName>
+        <categories>lwc, initiateBitrankScore</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>InitializeBitrankScore Info Text</shortDescription>
+        <value>Information</value>
+    </labels>
+    <labels>
+        <fullName>InitializeBitrankScore_Navigation</fullName>
+        <categories>lwc, initiateBitrankScore</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>InitializeBitrankScore Navigation</shortDescription>
+        <value>Navigate to BitRank Score Record</value>
+    </labels>
+    <labels>
+        <fullName>InitializeBitrankScore_Run_Bitrank_Score</fullName>
+        <categories>lwc, initiateBitrankScore</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>InitializeBitrankScore Run Bitrank Score</shortDescription>
+        <value>Run BitRank Score</value>
+    </labels>
+    <labels>
+        <fullName>InitializeBitrankScore_Success</fullName>
+        <categories>lwc, initiateBitrankScore</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>InitializeBitrankScore Success</shortDescription>
+        <value>BitRank Check succeded.</value>
+    </labels>
+    <labels>
+        <fullName>InitializeBitrankScore_Title</fullName>
+        <categories>lwc, initiateBitrankScore</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>InitializeBitrankScore Title</shortDescription>
+        <value>Start BitRank Score</value>
+    </labels>
+    <labels>
+        <fullName>LoggingDisableLogging</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Logging Disable Logging</shortDescription>
+        <value>Disable logging</value>
+    </labels>
+    <labels>
+        <fullName>LoggingDisableSuccess</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Logging Disable Success</shortDescription>
+        <value>Logging disabled.</value>
+    </labels>
+    <labels>
+        <fullName>LoggingEnableLogging</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Logging Enable Logging</shortDescription>
+        <value>Enable logging</value>
+    </labels>
+    <labels>
+        <fullName>LoggingEnableSuccess</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Logging Enabled Success</shortDescription>
+        <value>Logging enabled.</value>
+    </labels>
+    <labels>
+        <fullName>LoggingHeader</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Logging Header</shortDescription>
+        <value>Logging</value>
+    </labels>
+    <labels>
+        <fullName>LoggingInfo</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Logging Info</shortDescription>
+        <value>Recommended. You can enable error logging which may help troubleshoot problems.</value>
+    </labels>
+    <labels>
+        <fullName>LoggingSetupSuccess</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Logging Setup Success</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>LoggingTitle</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Logging Title</shortDescription>
+        <value>Setup Logging</value>
+    </labels>
+    <labels>
+        <fullName>MuknKeyAPI_Error_SettedUp</fullName>
+        <categories>apex, MuknKeyAPI</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>MuknKeyAPI Error SettedUp</shortDescription>
+        <value>API Key Already Setup</value>
+    </labels>
+    <labels>
+        <fullName>OrgUTXOAddress_blockDeletingIfParentOrgWalletIsHD_Message</fullName>
+        <categories>apex, OrgUTXOAddress</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrgUTXOAddress_blockDeletingIfParentOrgWalletIsHD_Message</shortDescription>
+        <value>You cannot delete Org UTXO Address if parent Org Wallet is HD.</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallOptionalPermissions</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PostInstallOptionalPermissions</shortDescription>
+        <value
+        >Optional: If you want to automatically connect to Opportunities, Orders, or other objects, you need View All to reference them from the Transaction. You will need Modify All if you want to flow information to the Object.</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph0ListingLine1</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 0 Line 1</shortDescription>
+        <value>Enter Setup, Search for Permission Sets and clone following permission sets:</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph0ListingLine2</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 0 Line 2</shortDescription>
+        <value>Web3 Enabler Admin (Managed)</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph0ListingLine21</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 0 Line 2 - 1</shortDescription>
+        <value>Label: Web3 Enabler Admin</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph0ListingLine22</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 0 Line 2 - 2</shortDescription>
+        <value>API Name: Web3_Enabler_Admin</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph0ListingLine23</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 0 Line 2 - 3</shortDescription>
+        <value>Choose created permission set and add folowing access:</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph0ListingLine24</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 0 Line 2 - 4</shortDescription>
+        <value>Object Settings - Account Wallet - Object Permissions: Read / Create / Edit / Delete</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph0ListingLine25</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 0 Line 2 - 5</shortDescription>
+        <value
+        >Object Settings - Inbound Blockchain Transactions - Object Permissions: Read / Create / Edit / Delete</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph0ListingLine26</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 0 Line 2 - 6</shortDescription>
+        <value
+        >Object Settings - Outbound Blockchain Transactions - Object Permissions: Read / Create / Edit / Delete</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph0ListingLine3</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 0 Line 3</shortDescription>
+        <value>Web3 Enabler Integration (Managed)</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph0ListingLine31</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 0 Line 3 - 1</shortDescription>
+        <value>Label: Web3 Enabler Integration</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph0ListingLine32</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 0 Line 3 - 2</shortDescription>
+        <value>API Name: Web3_Enabler_Integration</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph0ListingLine33</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 0 Line 3 - 3</shortDescription>
+        <value>Choose created permission set and add folowing access:</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph0ListingLine34</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 0 Line 3 - 4</shortDescription>
+        <value
+        >Object Settings - Account Wallet - Object Permissions: Read / Create / Edit / Delete / View All / Modify All</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph0ListingLine35</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 0 Line 3 - 5</shortDescription>
+        <value
+        >Object Settings - Inbound Blockchain Transactions - Object Permissions: Read / Create / Edit / Delete / View All / Modify All</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph0ListingLine36</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 0 Line 3 - 6</shortDescription>
+        <value
+        >Object Settings - Outbound Blockchain Transactions - Object Permissions: Read / Create / Edit / Delete / View All / Modify All</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph0ListingTitle</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 0 Listing Title</shortDescription>
+        <value>Step by step instructions are as follows:</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph0Title</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 0 Title</shortDescription>
+        <value>Step 0: Configure Permission Sets</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph1Title</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 1 Title</shortDescription>
+        <value>Digital Asset Wallets Web3 Enabler One Time Setup: Authorization and Authentication</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph1Text</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 1 Text</shortDescription>
+        <value>Thank you for installing Digital Asset Wallets. Digital Asset Wallets uses a connected app and an integration user to bring Blockchain Data into Salesforce. To comply with Salesforce's strict security requirements, administrators must create and authorize this user. All Digital Asset Wallets features will utilize the same Connected App and Integration User.</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph1Warning</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 1 Warning</shortDescription>
+        <value>Failure to do this step will result in failures to connect Blockchain Payment data to Salesforce data.</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph2ListingLine1</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 2 Listing Line 1</shortDescription>
+        <value>Enter Setup, Search for Permission Sets and create 2 following permission sets.</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph2ListingLine2</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 2 Listing Line 2</shortDescription>
+        <value>Create a new Permission Set named &apos;Web3 Enabler Integration Access&apos; without license.</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph2ListingLine3</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 2 Listing Line 3</shortDescription>
+        <value>Choose &apos;Assigned Connected App&apos; -&gt; Add &apos;MuKn Web3 CA&apos;.</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph2ListingLine4</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 2 Listing Line 4</shortDescription>
+        <value
+        >Create a new Permission Set named &apos;Web3 Enabler Object Access&apos; with license &apos;Salesforce API Integration&apos;.</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph2ListingLine5</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 2 Listing Line 5</shortDescription>
+        <value>Choose &apos;Object Settings&apos; -&gt; Choose &apos;Accounts&apos; -&gt; Edit -&gt; View All.</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph2ListingTitle</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 2 Listing Title</shortDescription>
+        <value>Step by step instructions are as follows:</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph2Text</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 2 Text</shortDescription>
+        <value>Web3 Enabler includes the permission sets necessary for most operations. 
+        There are a few permissions that cannot be added by developers, 
+        so we will walk through the installation.&lt;/br&gt;The permission in question 
+        are authorization to the ConnectedApp, that allows the communication, 
+        and access to the Standard Object Account.</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph2Title</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 2 Title</shortDescription>
+        <value>Step 1: Create an Additional Permission Sets</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph3ListingLine1</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 3 Listing Line 1</shortDescription>
+        <value>Enter Setup, and Create Users.</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph3ListingLine2</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 3 Listing Line 2</shortDescription>
+        <value>Give your new Integration User reasonable names and logins.</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph3ListingLine3</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 3 Listing Line 3</shortDescription>
+        <value>Use an email you can monitor.</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph3ListingLine4</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 3 Listing Line 4</shortDescription>
+        <value>Salesforce License: Salesforce Integration.</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph3ListingLine5</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 3 Listing Line 5</shortDescription>
+        <value>Salesforce Profile: Salesforce API Only System Integrations.</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph3ListingLine6</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 3 Listing Line 6</shortDescription>
+        <value>After saving, Edit Permission Sets for this user and assign:</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph3ListingTitle</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 3 Listing Title</shortDescription>
+        <value>Requirements of this User are as follows:</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph3Text</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 3 Text</shortDescription>
+        <value>We highly recommend the use of a Salesforce Integration user for this program. 
+        Web3 Data is highly sensitive data, and the data being reported is financial. 
+        We want a clear history in Salesforce of any changes here.</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph3Title</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 3 Title</shortDescription>
+        <value>Step 2: Create the Integration User</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph4Line1</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 4 Line 1</shortDescription>
+        <value>Make sure you have the User/Password from the User Created in Step Two.</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph4Line2</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 4 Line 2</shortDescription>
+        <value
+        >Go to the "Web3 Enabler Setup Tab" and click Authorize My Org (we recommend that you right-click and use an Incognito / Private Browser). Login and Authorize.</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph4Line3</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 4 Line 3</shortDescription>
+        <value>After Authorization, refresh the Web3 Enabler Setup Tab, you should see everything.</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph4Title</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 4 Title</shortDescription>
+        <value>Step 3: Authorize MuKn Web3 CA</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph5SubSection1</fullName>
+        <categories>DEPRECATED, lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 5 SubSection 1</shortDescription>
+        <value>Account Wallets</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph5SubSection1Line1</fullName>
+        <categories>DEPRECATED, lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 5 SubSection 1 Line 1</shortDescription>
+        <value
+        >Please select Setup, then Object Manager, then Account Wallet, then Page Layouts, then Page Layouts Assignments.</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph5SubSection1Line2</fullName>
+        <categories>DEPRECATED, lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 5 SubSection 1 Line 2</shortDescription>
+        <value
+        >Please configure Page Layouts Assignments so that Record Type Master and EVM have the value EVM Account Wallet Layout and record type UTXO has the value UTXO Account Wallet Layout.</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph5SubSection2</fullName>
+        <categories>DEPRECATED, lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 5 SubSection 2</shortDescription>
+        <value>Org Wallets</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph5SubSection2Line1</fullName>
+        <categories>DEPRECATED, lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 5 SubSection 2 Line 1</shortDescription>
+        <value
+        >Please select Setup, then Object Manager, then Org Wallet, then Page Layouts, then Page Layouts Assignments.</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph5SubSection2Line2</fullName>
+        <categories>DEPRECATED, lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 5 SubSection 2 Line 2</shortDescription>
+        <value
+        >Please configure Page Layouts Assignments so that Record Type Master and EVM have the value EVM Org Wallet Layout Layout and record type UTXO has the value UTXO Org Wallet Layout.</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph5Title</fullName>
+        <categories>DEPRECATED, lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 5 Title</shortDescription>
+        <value>Step 4: Assign Page Layouts</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph5TitleLine1OW1</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 5 Title Line1 OW1</shortDescription>
+        <value
+        >Paths helps to boost productivity. They guide users through the steps of the business process, such as working on Web3 Payment.</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph5TitleLine2OW1</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 5 Title Line2 OW1</shortDescription>
+        <value>Enter Setup, Search for Path Settings and enable them.</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph5TitleOW1</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 5 Title OW1</shortDescription>
+        <value>Step 4: Activate paths in your Salesforce organization</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallParagraph5TitleText</fullName>
+        <categories>DEPRECATED, lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Post Install Paragraph 5 Title Text</shortDescription>
+        <value
+        >In order to correctly see the fields and the arrangement of objects depending on the Blockchain type, we need to set appropriate page layouts.</value>
+    </labels>
+    <labels>
+        <fullName>PostInstallPermissionSetName</fullName>
+        <categories>lwc, postInstallManualSteps</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PostInstallPermissionSetName</shortDescription>
+        <value>Deprecated</value>
+    </labels>
+    <labels>
+        <fullName>ReconnectOrgWallet_Cancel_Text</fullName>
+        <categories>lwc, ReconnectOrgWallet</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ReconnectOrgWallet Cancel Text</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>ReconnectOrgWallet_ErrorIcon_Text</fullName>
+        <categories>lwc, ReconnectOrgWallet</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ReconnectOrgWallet Error Icon Text</shortDescription>
+        <value>Error</value>
+    </labels>
+    <labels>
+        <fullName>ReconnectOrgWallet_Error_Text</fullName>
+        <categories>lwc, ReconnectOrgWallet</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ReconnectOrgWallet Error Text</shortDescription>
+        <value>Wallet not correctly connected.</value>
+    </labels>
+    <labels>
+        <fullName>ReconnectOrgWallet_Spinner_Text</fullName>
+        <categories>lwc, ReconnectOrgWallet</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ReconnectOrgWallet Spinner Text</shortDescription>
+        <value>Loading</value>
+    </labels>
+    <labels>
+        <fullName>ReconnectOrgWallet_SuccessIcon_Text</fullName>
+        <categories>lwc, ReconnectOrgWallet</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ReconnectOrgWallet Success Icon Text</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>ReconnectOrgWallet_Success_Text</fullName>
+        <categories>lwc, ReconnectOrgWallet</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ReconnectOrgWallet Success Text</shortDescription>
+        <value>Wallet correctly connected.</value>
+    </labels>
+    <labels>
+        <fullName>ReconnectOrgWallet_Title</fullName>
+        <categories>lwc, ReconnectOrgWallet</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ReconnectOrgWallet Title</shortDescription>
+        <value>Reconnecting your Wallet</value>
+    </labels>
+    <labels>
+        <fullName>SetupApiKeyNotSet</fullName>
+        <categories>lwc, setupWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Api Key Not Set</shortDescription>
+        <value>Web 3 Enabler API Key is not set</value>
+    </labels>
+    <labels>
+        <fullName>SetupApiKeySet</fullName>
+        <categories>lwc, setupWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Api Key Set</shortDescription>
+        <value>Web 3 Enabler API Key is set</value>
+    </labels>
+    <labels>
+        <fullName>SetupAuthorizeMyOrg</fullName>
+        <categories>lwc, setupWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Authorize My Org</shortDescription>
+        <value>Authorize My Org</value>
+    </labels>
+    <labels>
+        <fullName>SetupAuthorized</fullName>
+        <categories>lwc, setupWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Authorized</shortDescription>
+        <value>Authorized</value>
+    </labels>
+    <labels>
+        <fullName>SetupBitrankApiKeyNotSet</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Bitrank Api Key Not Set</shortDescription>
+        <value>BitRank API Key is not set</value>
+    </labels>
+    <labels>
+        <fullName>SetupBitrankApiKeySet</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Bitrank Api Key Set</shortDescription>
+        <value>BitRank API Key is set</value>
+    </labels>
+    <labels>
+        <fullName>SetupBitrankHeader</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Bitrank Header</shortDescription>
+        <value>BitRank Setup</value>
+    </labels>
+    <labels>
+        <fullName>SetupBitrankInfo</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Bitrank Info</shortDescription>
+        <value
+        >Optional. BitRank is a blockchain intelligence software that provides fast, easy, and accurate real-time monitoring and scoring of transactions and wallets to stop transactions with bad actors and sanctioned entities.</value>
+    </labels>
+    <labels>
+        <fullName>SetupBitrankInput</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Bitrank Input</shortDescription>
+        <value>BitRank API Key</value>
+    </labels>
+    <labels>
+        <fullName>SetupBitrankLink</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Bitrank Link</shortDescription>
+        <value>More information there.</value>
+    </labels>
+    <labels>
+        <fullName>SetupBitrankRemove</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Bitrank Remove</shortDescription>
+        <value>Remove Credentials</value>
+    </labels>
+    <labels>
+        <fullName>SetupBitrankSave</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Bitrank Save</shortDescription>
+        <value>Save Credentials</value>
+    </labels>
+    <labels>
+        <fullName>SetupBitrankStatus</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Bitrank Status</shortDescription>
+        <value>BitRank Status</value>
+    </labels>
+    <labels>
+        <fullName>SetupBitrankTitle</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Bitrank Title</shortDescription>
+        <value>BitRank Credentials</value>
+    </labels>
+    <labels>
+        <fullName>SetupBitrankValidityInput</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Bitrank Validity Input</shortDescription>
+        <value>BitRank Score Validity</value>
+    </labels>
+    <labels>
+        <fullName>SetupBitrankValidityInputHelpText</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Bitrank Validity Input HelpText</shortDescription>
+        <value
+        >A time given in minutes that defines how long the BitRank Score will be valid, and no further checking will be performed during this time.</value>
+    </labels>
+    <labels>
+        <fullName>SetupBitrankValidityInputPlaceholder</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Bitrank Validity Input Placeholder</shortDescription>
+        <value>Please provide values in minutes 0 hour - 0, 1 hour - 60, 24 hours - 1440, 1 week - 10080</value>
+    </labels>
+    <labels>
+        <fullName>SetupCheckAuthorizationStatus</fullName>
+        <categories>lwc, setupWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Check Authorization Status</shortDescription>
+        <value>Check Authorization Status</value>
+    </labels>
+    <labels>
+        <fullName>SetupCoinGeckoApiKeyNotSet</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup CoinGecko Api Key Not Set</shortDescription>
+        <value>CoinGecko Pro API Key is not set</value>
+    </labels>
+    <labels>
+        <fullName>SetupCoinGeckoApiKeySet</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup CoinGecko Api Key Set</shortDescription>
+        <value>CoinGecko Pro API Key is set</value>
+    </labels>
+    <labels>
+        <fullName>SetupCoinGeckoHeader</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup CoinGecko Header</shortDescription>
+        <value>CoinGecko Pro Setup</value>
+    </labels>
+    <labels>
+        <fullName>SetupCoinGeckoInfo</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup CoinGecko Info</shortDescription>
+        <value
+        >Optional. The Coingecko API is used for Cryptocurrency to Fiat exchange rates. The limits of the Free API should be sufficient for all normal operations. If you have or register for Coingecko Account, you can use your API Key here to get more precise and up to date exchagne rates.</value>
+    </labels>
+    <labels>
+        <fullName>SetupCoinGeckoInput</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup CoinGecko Input</shortDescription>
+        <value>CoinGecko API Key</value>
+    </labels>
+    <labels>
+        <fullName>SetupCoinGeckoLink</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup CoinGecko Link</shortDescription>
+        <value>More information there.</value>
+    </labels>
+    <labels>
+        <fullName>SetupCoinGeckoRemove</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup CoinGecko Remove</shortDescription>
+        <value>Remove Credentials</value>
+    </labels>
+    <labels>
+        <fullName>SetupCoinGeckoSave</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup CoinGecko Save</shortDescription>
+        <value>Save Credentials</value>
+    </labels>
+    <labels>
+        <fullName>SetupCoinGeckoTitle</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup CoinGecko Title</shortDescription>
+        <value>CoinGecko Pro Credentials</value>
+    </labels>
+    <labels>
+        <fullName>SetupContainer</fullName>
+        <categories>lwc, setupWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Container</shortDescription>
+        <value>Container</value>
+    </labels>
+    <labels>
+        <fullName>SetupHeader1</fullName>
+        <categories>lwc, setupWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Header 1</shortDescription>
+        <value>Web3 Enabler Setup</value>
+    </labels>
+    <labels>
+        <fullName>SetupHeader1Text</fullName>
+        <categories>lwc, setupWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Header 1 Text</shortDescription>
+        <value>From this screen Web3 Enabler for Salesforce is Connected to the
+        Web3 Enabler System</value>
+    </labels>
+    <labels>
+        <fullName>SetupHeader2</fullName>
+        <categories>lwc, setupWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Header 2</shortDescription>
+        <value>Web3 Enabler Advanced Setup</value>
+    </labels>
+    <labels>
+        <fullName>SetupHeader2Text</fullName>
+        <categories>lwc, setupWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Header 2 Text</shortDescription>
+        <value>On this screen you can configure the advanced Web3 Enabler for Salesforce.</value>
+    </labels>
+    <labels>
+        <fullName>SetupMuknAPIKey</fullName>
+        <categories>lwc, setupWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Remote Server API Key</shortDescription>
+        <value>Web 3 Enabler API Key</value>
+    </labels>
+    <labels>
+        <fullName>SetupOrgId</fullName>
+        <categories>lwc, setupWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Org Id</shortDescription>
+        <value>Salesforce Organization Id</value>
+    </labels>
+    <labels>
+        <fullName>SetupOrganizationId</fullName>
+        <categories>lwc, setupWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Organization Id</shortDescription>
+        <value>Web 3 Enabler Organization Id</value>
+    </labels>
+    <labels>
+        <fullName>SetupOrganizationURL</fullName>
+        <categories>lwc, setupWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Organization URL</shortDescription>
+        <value>Salesforce Organization URL</value>
+    </labels>
+    <labels>
+        <fullName>SetupReauthorizeMyOrg</fullName>
+        <categories>lwc, setupWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Re-authorize My Org</shortDescription>
+        <value>Re-authorize My Org</value>
+    </labels>
+    <labels>
+        <fullName>SetupSubTitle</fullName>
+        <categories>lwc, setupWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Sub Title</shortDescription>
+        <value>Organization Information</value>
+    </labels>
+    <labels>
+        <fullName>SetupTitle1</fullName>
+        <categories>lwc, setupWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Title 1</shortDescription>
+        <value>Authorization Status</value>
+    </labels>
+    <labels>
+        <fullName>SetupTitle2</fullName>
+        <categories>lwc, setupWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Title 2</shortDescription>
+        <value>Connect to MuKn Web3 Enabler</value>
+    </labels>
+    <labels>
+        <fullName>SetupVerifyMyOrg</fullName>
+        <categories>lwc, setupWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Verify My Org</shortDescription>
+        <value>Verify My Org</value>
+    </labels>
+    <labels>
+        <fullName>SetupWarrningInfo</fullName>
+        <categories>lwc, setupWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Warrning Info</shortDescription>
+        <value
+        >WARNING: If you have not completed the Post Install Setup, the authorization will succeed, but you will get strange error messages and data will not flow properly. Please complete the Post Install Setup first.</value>
+    </labels>
+    <labels>
+        <fullName>SetupWeb3EnablerEnvironmentHeader</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Web3Enabler Environment Header</shortDescription>
+        <value>Environment Settings</value>
+    </labels>
+    <labels>
+        <fullName>SetupWeb3EnablerEnvironmentInfo</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Web3Enabler Environment Info</shortDescription>
+        <value
+        >The production environment is the live system where real business data is stored and actual day-to-day operations take place. Changes made here are immediately visible to users and affect the company&apos;s live processes. In contrast, a sandbox environment is a copy of the production environment used for development, testing, and training without impacting the live system. Sandboxes allow administrators and developers to test new features, configurations, and customizations in a risk-free setting before deploying them to production.</value>
+    </labels>
+    <labels>
+        <fullName>SetupWeb3EnablerEnvironmentProduction</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Web3Enabler Environment Production</shortDescription>
+        <value>Production</value>
+    </labels>
+    <labels>
+        <fullName>SetupWeb3EnablerEnvironmentSave</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Web3Enabler Environment Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>SetupWeb3EnablerEnvironmentSuccess</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Web3Enabler Environment Success</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>SetupWeb3EnablerEnvironmentSuccessDetail</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Web3Enabler Environment Success Detail</shortDescription>
+        <value>Web3 Environment Settings saved.</value>
+    </labels>
+    <labels>
+        <fullName>SetupWeb3EnablerPaymentHeader</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Web3Enabler Payment Header</shortDescription>
+        <value>WebEnabler Settings</value>
+    </labels>
+    <labels>
+        <fullName>SetupWeb3EnablerPaymentInfo</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Web3Enabler Payment Info</shortDescription>
+        <value
+        >Accepted payment variance refers to the allowable difference between the invoiced amount and the payment received during transaction processing. When setting up, this tolerance can be configured to a specific percentage, ensuring that minor discrepancies do not result in payment rejections or delays.</value>
+    </labels>
+    <labels>
+        <fullName>SetupWeb3EnablerPaymentSave</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Web3Enabler Payment Save</shortDescription>
+        <value>Save Web3 Payment Settings</value>
+    </labels>
+    <labels>
+        <fullName>SetupWeb3EnablerPaymentSuccess</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Web3Enabler Payment Success</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>SetupWeb3EnablerPaymentSuccessDetail</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Web3Enabler Payment Success Detail</shortDescription>
+        <value>Web3 Payment Settings saved.</value>
+    </labels>
+    <labels>
+        <fullName>SetupWeb3EnablerPaymentTitle</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Web3Enabler Payment Title</shortDescription>
+        <value>Web3 Payment</value>
+    </labels>
+    <labels>
+        <fullName>SetupWeb3EnablerPaymentVarianceAccepted</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Web3Enabler Payment Variance Accepted</shortDescription>
+        <value>Payment Variance Accepted</value>
+    </labels>
+    <labels>
+        <fullName>SetupWeb3EnablerPaymentVarianceAcceptedHelp</fullName>
+        <categories>lwc, setupAdvancedWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Setup Web3Enabler Payment Variance Accepted Help</shortDescription>
+        <value>Please enter what percentage of payment variance you accept, if you do not accept any enter 0.</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeHeader</fullName>
+        <categories>lwc, welcomeWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Welcome Header</shortDescription>
+        <value>Welcome to Web3 Enabler Blockchain Payments!</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeHeaderText</fullName>
+        <categories>lwc, welcomeWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Welcome Header Text</shortDescription>
+        <value>Welcome to Web3 Enabler Blockchain Payments.
+        Blockchain Payments allows you to do business in the blockchain using Web3 technologies.
+        &lt;/br&gt; To enable receiving payments, start by adding one or more Org Wallets.</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeParagraph1</fullName>
+        <categories>lwc, welcomeWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Welcome Paragraph 1</shortDescription>
+        <value>Wallet Configurations</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeParagraph1Text</fullName>
+        <categories>lwc, welcomeWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Welcome Paragraph 1 Text</shortDescription>
+        <value>The Org Wallets are the wallets belonging to the Salesforce organization.
+        The wallets may be created manually with the wallet address, or automated with Wallet Connect.
+        &lt;/br&gt;To protect your safety, only the public key is recorded when verifying the wallet.
+        Your private key is never sent to Salesforce.</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeParagraph2</fullName>
+        <categories>lwc, welcomeWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Welcome Paragraph 2</shortDescription>
+        <value>Safety of Assets</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeParagraph2Text</fullName>
+        <categories>lwc, welcomeWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Welcome Paragraph 2 Text</shortDescription>
+        <value>Your assets in the wallet are only accessible by the private key holder.
+        They may be used to validate the wallet, but your organization members do not hace access to the wallet.
+        &lt;/br&gt;Your accounting department will need to verify the assets with the private key.</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeParagraph3</fullName>
+        <categories>lwc, welcomeWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Welcome Paragraph 3</shortDescription>
+        <value>Customer Wallets</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeParagraph3Text</fullName>
+        <categories>lwc, welcomeWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Welcome Paragraph 3 Text</shortDescription>
+        <value>Accounts may also have one or more wallets. Payments from an Account Wallet
+        to an Org Wallet are recorded by Web3 Enabler.
+        &lt;/br&gt;Customers may also enter their public key manually or use Wallet Connect.
+        Payments must be made with access to the private key.</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeParagraph4</fullName>
+        <categories>lwc, welcomeWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Welcome Paragraph 4</shortDescription>
+        <value>Do NOT Share your Private Key</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeParagraph4Text</fullName>
+        <categories>lwc, welcomeWeb3Enabler</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Welcome Paragraph 4 Text</shortDescription>
+        <value
+        >Web3 Enabler and affiliated companies will never ask for your private key. You should not share your private key.
+        The wallet manager should be the only person with access, plus a recovery process.</value>
+    </labels>
+    <labels>
+        <fullName>flow_exchange_rate_error_calculated</fullName>
+        <categories
+        >flow, Inbound / Outbound Blockchain Transaction Exchange Rate Calculation / Transaction Mapping</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>flow_exchange_rate_error_calculated</shortDescription>
+        <value>Transaction Recorded. The Conversion Rate update failed, please verify the conversion rate.</value>
+    </labels>
+    <labels>
+        <fullName>flow_exchange_rate_success_calculated</fullName>
+        <categories
+        >flow, Inbound / Outbound Blockchain Transaction Exchange Rate Calculation / Transaction Mapping</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>flow_exchange_rate_success_calculated</shortDescription>
+        <value>Transaction Recorded.</value>
+    </labels>
+</CustomLabels>

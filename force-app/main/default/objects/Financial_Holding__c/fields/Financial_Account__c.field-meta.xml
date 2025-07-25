@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Financial_Account__c</fullName>
+    <label>Financial Account</label>
+    <type>Lookup</type>
+    <referenceTo>FinServ__FinancialAccount__c</referenceTo>
+    <relationshipLabel>Account Holdings</relationshipLabel>
+    <relationshipName>Account_Holdings</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <deleteConstraint>Restrict</deleteConstraint>
+</CustomField> 

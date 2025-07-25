@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ConnectWallet__c</fullName>
+    <label>Connect Crypto Account</label>
+    <type>Text</type>
+    <formula>
+        IF(
+            OR(
+                ISBLANK(Connected_Blockchains__c),
+                AND(ISBLANK(Wallet_Address__c), ISBLANK(Master_Public_Key__c))
+            ),
+            HYPERLINK(
+                $CustomMetadata.Mukn_Setting__mdt.Default.MuKnWeb3CA_AppUrl__c +
+                '/salesforce/organization/' + $Organization.Id + '/crypto-account/' + Id,
+                'Connect Wallet'
+            ),
+            'Crypto Account Connected'
+        )
+    </formula>
+    <inlineHelpText>Field represents a link to connect your wallet if not yet connected. If wallet is connected (either Wallet Address or Master Public Key is set, and Connected Blockchains is not blank), field will display confirmation text.</inlineHelpText>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <unique>false</unique>
+</CustomField> 

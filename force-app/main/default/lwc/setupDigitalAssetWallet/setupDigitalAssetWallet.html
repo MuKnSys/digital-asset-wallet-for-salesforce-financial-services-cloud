@@ -1,0 +1,132 @@
+<template>
+    <lightning-card hide-header>
+        <lightning-spinner lwc:if={isLoading}></lightning-spinner>
+        <div class="color slds-var-m-around_large">
+            <div class="slds-notify slds-notify_alert slds-alert_warning slds-var-m-bottom_medium">
+                <lightning-icon
+                    icon-name="utility:warning"
+                    size="x-small"
+                    class="slds-var-p-right_small"
+                ></lightning-icon>
+                This app requires authorization to access your Salesforce org.
+            </div>
+
+            <div class="slds-var-p-left_medium slds-var-p-right_medium">
+                <div class="slds-text-heading_large slds-var-p-bottom_medium">
+                    <div class="slds-grid slds-wrap">
+                        <div class="slds-col slds-size_11-of-12">
+                            <b>Connected App Authorization</b>
+                        </div>
+                        <div class="slds-col slds-size_1-of-12">
+                            <lightning-icon
+                                class="refresh"
+                                icon-name="utility:refresh"
+                                size="small"
+                                onclick={handleRefresh}
+                            ></lightning-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="slds-text-heading_small slds-var-m-bottom_medium">
+                    <lightning-formatted-rich-text
+                        class="slds-var-p-right_xx-small"
+                        value="Configure and verify the authorization status of your Salesforce org for this Connected App."
+                    ></lightning-formatted-rich-text>
+                </div>
+            </div>
+
+            <lightning-card title="Authorization Details" icon-name="standard:connected_apps">
+                <lightning-accordion allow-multiple-sections-open active-section-name={activeSections}>
+                    <lightning-accordion-section
+                        name={steps.n1}
+                        label="Organization Information"
+                        class="slds-var-m-left_xx-large"
+                    >
+                        <div class="slds-grid slds-wrap slds-var-p-left_large slds-var-p-top_medium">
+                            <div class="slds-col slds-size_1-of-3">
+                                <p class="slds-var-p-bottom_medium">Organization UUID</p>
+                            </div>
+                            <div class="slds-col slds-size_2-of-3">
+                                <p class="slds-var-p-bottom_medium"><b>{authorizationStatus.organization_uuid}</b></p>
+                            </div>
+
+                            <div class="slds-col slds-size_1-of-3">
+                                <p class="slds-var-p-bottom_medium">Org ID</p>
+                            </div>
+                            <div class="slds-col slds-size_2-of-3">
+                                <p class="slds-var-p-bottom_medium"><b>{setupData.orgId}</b></p>
+                            </div>
+
+                            <div class="slds-col slds-size_1-of-3">
+                                <p class="slds-var-p-bottom_medium">Organization URL</p>
+                            </div>
+                            <div class="slds-col slds-size_2-of-3">
+                                <p class="slds-var-p-bottom_medium"><b>{authorizationStatus.org_url}</b></p>
+                            </div>
+
+                            <div class="slds-col slds-size_1-of-3">
+                                <p class="slds-var-p-bottom_medium">API Key Status</p>
+                            </div>
+                            <div class="slds-col slds-size_2-of-3">
+                                <p class="slds-var-p-bottom_medium"><b>{setupData.muknApiKeyStatus}</b></p>
+                            </div>
+
+                            <div class="slds-col slds-size_1-of-3">
+                                <p class="slds-var-p-bottom_medium">Authorized</p>
+                            </div>
+                            <div class="slds-col slds-size_2-of-3">
+                                <p class="slds-var-p-bottom_medium">
+                                    <lightning-icon
+                                        icon-name="action:approval"
+                                        size="xx-small"
+                                        lwc:if={authorizationStatus.authorized}
+                                    ></lightning-icon>
+                                    <lightning-icon icon-name="action:close" size="xx-small" lwc:else></lightning-icon>
+                                </p>
+                            </div>
+                        </div>
+                    </lightning-accordion-section>
+
+                    <lightning-accordion-section name={steps.n2} label="Authorization Actions" class="slds-var-m-left_xx-large">
+                        <div class="slds-var-p-left_large slds-var-p-top_medium">
+                            <p class="slds-var-p-bottom_medium" lwc:if={isOrgNotAuthorized}>
+                                <lightning-formatted-url
+                                    class="slds-button slds-button_outline-brand"
+                                    value={authroizeEndpoint}
+                                    label="Authorize My Org"
+                                    target="_blank"
+                                >
+                                </lightning-formatted-url>
+                            </p>
+                            <p class="slds-var-p-bottom_medium" lwc:if={isOrgNotAuthorized}>
+                                <lightning-button
+                                    variant="brand-outline"
+                                    label="Check Authorization Status"
+                                    onclick={handleRefresh}
+                                ></lightning-button>
+                            </p>
+                            <p class="slds-var-p-bottom_medium" lwc:if={isOrgAuthorized}>
+                                <lightning-formatted-url
+                                    class="slds-button slds-button_outline-brand"
+                                    value={reAuthroizeEndpoint}
+                                    label="Reauthorize My Org"
+                                    target="_blank"
+                                >
+                                </lightning-formatted-url>
+                            </p>
+                            <p class="slds-var-p-bottom_medium" lwc:if={isOrgAuthorized}>
+                                <lightning-formatted-url
+                                    class="slds-button slds-button_outline-brand"
+                                    value={verifyAuthorizeEndpoint}
+                                    label="Verify My Org"
+                                    target="_blank"
+                                >
+                                </lightning-formatted-url>
+                            </p>
+                        </div>
+                    </lightning-accordion-section>
+                </lightning-accordion>
+            </lightning-card>
+        </div>
+    </lightning-card>
+</template>

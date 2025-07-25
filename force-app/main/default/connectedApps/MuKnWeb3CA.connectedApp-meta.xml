@@ -1,0 +1,6 @@
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <developerName>mukn_web3enable__MuKnWeb3CA</developerName>
+    <contactEmail>alexh@mukn.io</contactEmail>
+    <label>MuKnWeb3CA</label>
+    <version>6.0</version>
+</ConnectedApp>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flexiPage>setupWeb3Enabler</flexiPage>
+    <label>Digital Asset Wallet Setup</label>
+    <motif>Custom53: Settings</motif>
+</CustomTab> 

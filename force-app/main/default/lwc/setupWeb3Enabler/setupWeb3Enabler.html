@@ -1,0 +1,132 @@
+<template>
+    <lightning-card hide-header label={labels.Container}>
+        <lightning-spinner lwc:if={isLoading}></lightning-spinner>
+        <div class="color slds-var-m-around_large">
+            <div class="slds-notify slds-notify_alert slds-alert_warning slds-var-m-bottom_medium">
+                <lightning-icon
+                    icon-name="utility:warning"
+                    size="x-small"
+                    class="slds-var-p-right_small"
+                ></lightning-icon>
+                {labels.WarrningInfo}
+            </div>
+
+            <div class="slds-var-p-left_medium slds-var-p-right_medium">
+                <div class="slds-text-heading_large slds-var-p-bottom_medium">
+                    <div class="slds-grid slds-wrap">
+                        <div class="slds-col slds-size_11-of-12">
+                            <b>{labels.Header1}</b>
+                        </div>
+                        <div class="slds-col slds-size_1-of-12">
+                            <lightning-icon
+                                class="refresh"
+                                icon-name="utility:refresh"
+                                size="small"
+                                onclick={handleRefresh}
+                            ></lightning-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="slds-text-heading_small slds-var-m-bottom_medium">
+                    <lightning-formatted-rich-text
+                        class="slds-var-p-right_xx-small"
+                        value={labels.Header1Text}
+                    ></lightning-formatted-rich-text>
+                </div>
+            </div>
+
+            <lightning-card title={labels.Title1} icon-name="standard:connected_apps">
+                <lightning-accordion allow-multiple-sections-open active-section-name={activeSections}>
+                    <lightning-accordion-section
+                        name={steps.n1}
+                        label={labels.SubTitle}
+                        class="slds-var-m-left_xx-large"
+                    >
+                        <div class="slds-grid slds-wrap slds-var-p-left_large slds-var-p-top_medium">
+                            <div class="slds-col slds-size_1-of-3">
+                                <p class="slds-var-p-bottom_medium">{labels.OrganizationId}</p>
+                            </div>
+                            <div class="slds-col slds-size_2-of-3">
+                                <p class="slds-var-p-bottom_medium"><b>{authorizationStatus.organization_uuid}</b></p>
+                            </div>
+
+                            <div class="slds-col slds-size_1-of-3">
+                                <p class="slds-var-p-bottom_medium">{labels.OrgId}</p>
+                            </div>
+                            <div class="slds-col slds-size_2-of-3">
+                                <p class="slds-var-p-bottom_medium"><b>{setupData.orgId}</b></p>
+                            </div>
+
+                            <div class="slds-col slds-size_1-of-3">
+                                <p class="slds-var-p-bottom_medium">{labels.OrganizationURL}</p>
+                            </div>
+                            <div class="slds-col slds-size_2-of-3">
+                                <p class="slds-var-p-bottom_medium"><b>{authorizationStatus.org_url}</b></p>
+                            </div>
+
+                            <div class="slds-col slds-size_1-of-3">
+                                <p class="slds-var-p-bottom_medium">{labels.MuknAPIKey}</p>
+                            </div>
+                            <div class="slds-col slds-size_2-of-3">
+                                <p class="slds-var-p-bottom_medium"><b>{setupData.muknApiKeyStatus}</b></p>
+                            </div>
+
+                            <div class="slds-col slds-size_1-of-3">
+                                <p class="slds-var-p-bottom_medium">{labels.Authorized}</p>
+                            </div>
+                            <div class="slds-col slds-size_2-of-3">
+                                <p class="slds-var-p-bottom_medium">
+                                    <lightning-icon
+                                        icon-name="action:approval"
+                                        size="xx-small"
+                                        lwc:if={authorizationStatus.authorized}
+                                    ></lightning-icon>
+                                    <lightning-icon icon-name="action:close" size="xx-small" lwc:else></lightning-icon>
+                                </p>
+                            </div>
+                        </div>
+                    </lightning-accordion-section>
+
+                    <lightning-accordion-section name={steps.n2} label={labels.Title2} class="slds-var-m-left_xx-large">
+                        <div class="slds-var-p-left_large slds-var-p-top_medium">
+                            <p class="slds-var-p-bottom_medium" lwc:if={isOrgNotAuthorized}>
+                                <lightning-formatted-url
+                                    class="slds-button slds-button_outline-brand"
+                                    value={authroizeEndpoint}
+                                    label={labels.AuthorizeMyOrg}
+                                    target="_blank"
+                                >
+                                </lightning-formatted-url>
+                            </p>
+                            <p class="slds-var-p-bottom_medium" lwc:if={isOrgNotAuthorized}>
+                                <lightning-button
+                                    variant="brand-outline"
+                                    label={labels.CheckAuthorizationStatus}
+                                    onclick={handleRefresh}
+                                ></lightning-button>
+                            </p>
+                            <p class="slds-var-p-bottom_medium" lwc:if={isOrgAuthorized}>
+                                <lightning-formatted-url
+                                    class="slds-button slds-button_outline-brand"
+                                    value={reAuthroizeEndpoint}
+                                    label={labels.ReauthorizeMyOrg}
+                                    target="_blank"
+                                >
+                                </lightning-formatted-url>
+                            </p>
+                            <p class="slds-var-p-bottom_medium" lwc:if={isOrgAuthorized}>
+                                <lightning-formatted-url
+                                    class="slds-button slds-button_outline-brand"
+                                    value={verifyAuthorizeEndpoint}
+                                    label={labels.VerifyMyOrg}
+                                    target="_blank"
+                                >
+                                </lightning-formatted-url>
+                            </p>
+                        </div>
+                    </lightning-accordion-section>
+                </lightning-accordion>
+            </lightning-card>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flexiPage>setupAdvancedWeb3Enabler</flexiPage>
+    <label>Advanced Setup</label>
+    <motif>Custom53: Settings</motif>
+</CustomTab> 
