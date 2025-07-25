@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Financial_Account__c</fullName>
+    <label>Financial Account</label>
+    <referenceTo>FinServ__FinancialAccount__c</referenceTo>
+    <relationshipLabel>Crypto Accounts</relationshipLabel>
+    <relationshipName>Crypto_Accounts</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

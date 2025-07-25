@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Blockchains_When_Connected</fullName>
+    <active>true</active>
+    <description>Connected Blockchains must be set if Wallet Address or Master Public Key is set (but not both).</description>
+    <errorConditionFormula>AND(
+  ISBLANK(Connected_Blockchains__c),
+  OR(
+    AND(
+      NOT(ISBLANK(Wallet_Address__c)),
+      ISBLANK(Master_Public_Key__c)
+    ),
+    AND(
+      ISBLANK(Wallet_Address__c),
+      NOT(ISBLANK(Master_Public_Key__c))
+    )
+  )
+)</errorConditionFormula>
+    <errorMessage>Please select at least one blockchain when connecting a wallet address.</errorMessage>
+</ValidationRule> 

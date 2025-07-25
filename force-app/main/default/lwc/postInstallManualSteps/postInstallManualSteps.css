@@ -1,0 +1,8 @@
+:host {
+    --slds-c-accordion-heading-font-size: 1.5rem;
+    --slds-c-accordion-heading-text-color: rgb(3, 45, 96);
+}
+
+.color {
+    color: rgb(3, 45, 96);
+}

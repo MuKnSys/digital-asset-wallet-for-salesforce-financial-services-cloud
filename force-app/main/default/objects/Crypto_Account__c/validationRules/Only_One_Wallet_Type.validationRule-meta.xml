@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_One_Wallet_Type</fullName>
+    <active>true</active>
+    <description>Only one wallet type can be connected at a time (either Wallet Address or Master Public Key, not both).</description>
+    <errorConditionFormula>AND(
+  NOT(ISBLANK(Wallet_Address__c)),
+  NOT(ISBLANK(Master_Public_Key__c))
+)</errorConditionFormula>
+    <errorMessage>Only one wallet type can be connected at a time. Please provide either a Wallet Address or a Master Public Key, not both.</errorMessage>
+</ValidationRule> 

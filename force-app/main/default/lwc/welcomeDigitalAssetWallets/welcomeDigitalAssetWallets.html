@@ -1,0 +1,58 @@
+<template>
+    <lightning-card>
+        <div slot="title" class="slds-media slds-media_center slds-has-flexi-truncate">
+            <div class="slds-media__figure">
+                <lightning-icon icon-name="custom:custom1" size="small"></lightning-icon>
+            </div>
+            <div class="slds-media__body">
+                <span class="slds-text-heading_medium">Welcome to Digital Asset Wallets</span>
+            </div>
+        </div>
+        <div class="color slds-var-m-around_large">
+            <div class="slds-text-heading_large slds-var-p-bottom_medium"><b>Get Started with Digital Asset Wallets</b></div>
+            <div class="slds-text-heading_small slds-var-p-bottom_medium">
+                This page will guide you through the basic functions of the Digital Asset Wallets app.
+            </div>
+            <lightning-accordion allow-multiple-sections-open active-section-name={activeSections}>
+                <lightning-accordion-section name="overview" label="Welcome & Overview">
+                    <div class="slds-text-heading_small">
+                        Digital Asset Wallets lets you manage, track, and interact with blockchain-based assets directly in Salesforce. Use this app to view Crypto Account balances, initiate transactions, and monitor blockchain activity.
+                    </div>
+                </lightning-accordion-section>
+                <lightning-accordion-section name="initialize" label="Step 1: Initialize Investment Assets">
+                    <div class="slds-text-heading_small">
+                        Before using Digital Asset Wallets, you must initialize your investment assets. <br/>
+                        <b>If you haven't already, go to the <a href="/lightning/n/Digital_Asset_Wallet_Setup" class="slds-text-link" target="_blank">Digital Asset Wallet Setup</a> tab and follow the instructions to complete the initial setup.</b><br/>
+                        To initialize or reinitialize Crypto Assets, visit the <a href="/lightning/n/Advanced_Setup" class="slds-text-link" target="_blank">Advanced Setup</a> tab and use the "Reinitialize Investment Assets" button.<br/>
+                        <br/>
+                        <b>Tip:</b> Initializing assets ensures your Salesforce org is ready to track and manage digital assets and tokens.
+                    </div>
+                </lightning-accordion-section>
+                <lightning-accordion-section name="cryptoAccount" label="Step 2: Create a Crypto Account">
+                    <div class="slds-text-heading_small">
+                        A Crypto Account represents a single blockchain wallet. You can create a Crypto Account of type <b>EVM</b> (Ethereum, Base, etc.) or <b>UTXO</b> (Bitcoin, etc.).<br/>
+                        <b>Hint:</b> EVM Crypto Accounts use a single address for all assets, while UTXO Crypto Accounts (like Bitcoin) use multiple addresses for different transactions.<br/>
+                        <br/>
+                        To create a new Crypto Account, navigate to the <b>Crypto Accounts</b> tab and click "New". Fill in the required details and save. Your Crypto Account will be ready to use for blockchain transactions.<br/>
+                        <br/>
+                        After creating a Crypto Account, use the <b>Fetch All Assets</b> action to automatically retrieve all assets for that account.<br/>
+                        <br/>
+                        <b>Tip:</b> Each Crypto Account is a single wallet on the blockchain. You can create multiple Crypto Accounts for different wallets or blockchains.
+                    </div>
+                </lightning-accordion-section>
+                <lightning-accordion-section name="financialAccount" label="Step 3: Create a Financial Account">
+                    <div class="slds-text-heading_small">
+                        A Financial Account is used to collect and organize all Financial Holdings (investment assets) from the Crypto Accounts assigned to it.<br/>
+                        <br/>
+                        <b>Tip:</b> Assign multiple Crypto Accounts to a single Financial Account to see a consolidated view of all holdings and investment assets in one place.
+                    </div>
+                </lightning-accordion-section>
+                <lightning-accordion-section name="reports" label="Viewing Reports & Activity">
+                    <div class="slds-text-heading_small">
+                        Access the Reports tab to view transaction history, balances, and analytics. Use filters to customize your view and export data as needed.
+                    </div>
+                </lightning-accordion-section>
+            </lightning-accordion>
+        </div>
+    </lightning-card>
+</template> 

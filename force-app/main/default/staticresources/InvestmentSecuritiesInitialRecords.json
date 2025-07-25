@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "BTC",
+    "name": "Bitcoin",
+    "exchange": "DeFi",
+    "coingecko": "bitcoin"
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ethereum",
+    "exchange": "DeFi",
+    "coingecko": "ethereum"
+  },
+  {
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "exchange": "DeFi",
+    "coingecko": "usd-coin"
+  },
+  {
+    "symbol": "USDT",
+    "name": "Tether",
+    "exchange": "DeFi",
+    "coingecko": "tether"
+  },
+  {
+    "symbol": "BNB",
+    "name": "Binance Coin",
+    "exchange": "DeFi",
+    "coingecko": "binancecoin"
+  },
+  {
+    "symbol": "STETH",
+    "name": "Lido Staked Ether",
+    "exchange": "DeFi",
+    "coingecko": "staked-ether"
+  },
+  {
+    "symbol": "WBTC",
+    "name": "Wrapped Bitcoin",
+    "exchange": "DeFi",
+    "coingecko": "wrapped-bitcoin"
+  },
+  {
+    "symbol": "LINK",
+    "name": "Chainlink",
+    "exchange": "DeFi",
+    "coingecko": "chainlink"
+  },
+  {
+    "symbol": "LEO",
+    "name": "LEO Token",
+    "exchange": "DeFi",
+    "coingecko": "leo-token"
+  },
+  {
+    "symbol": "SHIB",
+    "name": "Shiba Inu",
+    "exchange": "DeFi",
+    "coingecko": "shiba-inu"
+  }
+] 

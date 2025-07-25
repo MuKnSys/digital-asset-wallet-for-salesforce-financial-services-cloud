@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Financial_Account_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>FinServ__FinancialAccount__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Financial_Account_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>FinServ__FinancialAccount__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Securities_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>FinServ__Securities__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Securities_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>FinServ__Securities__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Crypto_Account_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Crypto_Account__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Crypto_Account_Record_Page1</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Crypto_Account__c</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Application for managing digital asset wallets</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Digital Asset Wallet</label>
+    <navType>Standard</navType>
+    <tabs>Welcome_Digital_Asset_Wallets</tabs>
+    <tabs>Crypto_Account__c</tabs>
+    <tabs>FinServ__FinancialAccount__c</tabs>
+    <tabs>FinServ__Securities__c</tabs>
+    <tabs>standard-Report</tabs>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Crypto_Account_Record_Page1</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Crypto_Account__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Crypto_Account_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Crypto_Account__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Crypto_Account_Record_Page1</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Crypto_Account__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Crypto_Account_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Crypto_Account__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <uiType>Lightning</uiType>
+</CustomApplication>
