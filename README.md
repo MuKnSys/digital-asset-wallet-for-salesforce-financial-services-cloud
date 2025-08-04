@@ -11,7 +11,7 @@ The following installation and setup steps are also shown in this [video demonst
 
 1. **Clone the repository to your local machine:**
    ```sh
-   git clone https://github.com/MuKnSysEnterprise/digital-asset-wallet-for-salesforce.git
+   git clone https://github.com/MuKnSysEnterprise/digital-asset-wallet-for-salesforce-financial-services-cloud.git
    cd digital-asset-wallet-for-salesforce
    ```
 
