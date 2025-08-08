@@ -58,5 +58,11 @@
     "name": "Shiba Inu",
     "exchange": "DeFi",
     "coingecko": "shiba-inu"
+  },
+    {
+    "symbol": "APT",
+    "name": "Aptos",
+    "exchange": "DeFi",
+    "coingecko": "aptos"
   }
 ] 
